@@ -88,10 +88,6 @@ section {
 
 /* main */
 /* hero section */
-.hero {
-    height: 50vh;
-}
-
 .hero .hero__title {
     font-size: 4rem;
     font-weight: 700;
@@ -152,3 +148,23 @@ section {
 .my-projects .cta-link:hover {
     color: var(--salmon);
 }
+
+/* about-me section */
+.about-me ul .list__item {
+    list-style: disc;
+}
+
+.about-me .author__img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    /* border-radius: 999px; */
+}
+
+
+
+
+
