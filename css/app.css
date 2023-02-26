@@ -128,17 +128,17 @@ section {
 }
 
 .my-projects .card .card-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
 }
 
 .my-projects .card .card-text {
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
 .my-projects .cta-link {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-decoration: underline;
 }
 
