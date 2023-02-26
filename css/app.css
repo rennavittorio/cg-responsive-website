@@ -40,6 +40,7 @@ body {
     z-index: 999;
 
     width: 100%;
+    padding: 0 100px;
 }
 
 .main {
@@ -47,9 +48,11 @@ body {
     padding-top: 75px;
 }
 
-.footer {
-    background-color: lightgreen;
+.section__title {
+    font-size: 3rem;
+    font-weight: 700;
 }
+
 
 /* homepage style */
 section {
@@ -88,6 +91,21 @@ section {
 
 /* main */
 /* hero section */
+.main .hero {
+    padding: 100px 0 50px;
+}
+
+.hero .container {
+    margin: auto;
+}
+
+.hero .hero-banner img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+}
+
 .hero .hero__title {
     font-size: 4rem;
     font-weight: 700;
@@ -110,12 +128,14 @@ section {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 700;
+    width: fit-content;
 }
 
 
 /* my-projects section */
 .my-projects {
     background-color: var(--grey);
+    padding: 100px 0 50px;
 }
 
 .my-projects .card {
@@ -132,6 +152,7 @@ section {
 
 .my-projects .card .card-title {
     font-size: 1.5rem;
+    font-weight: 600;
     margin-bottom: 0;
 }
 
@@ -140,24 +161,31 @@ section {
     margin-bottom: 0.5rem;
 }
 
-.my-projects .cta-link {
+.cta-link {
     font-size: 1rem;
     text-decoration: underline;
 }
 
-.my-projects .cta-link:hover {
+.cta-link:hover {
     color: var(--salmon);
 }
 
 /* about-me section */
+.about-me {
+    padding: 100px 0 50px;
+}
+
+.about-me .section__text,
+.about-me ul .list__item {
+    font-size: 1.5rem;
+}
+
 .about-me ul .list__item {
     list-style: disc;
 }
 
 .about-me .author__img img {
-    width: 350px;
-    height: 350px;
-    border-radius: 20px;
+    height: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;
@@ -165,6 +193,11 @@ section {
 }
 
 
+/* footer section */
+.footer {
+    background-color: var(--grey);
+    padding: 20px 100px;
+}
 
 
 
